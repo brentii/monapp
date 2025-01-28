@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "29321394047",
+    "project_id": "monapp-firebase-dev",
+    "storage_bucket": "monapp-firebase-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29321394047:android:4f87012812db395ae54c4a",
+        "android_client_info": {
+          "package_name": "com.example.monapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29321394047-mmjk0s2jibpf1hpndbc0srnj96p3mu4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monapp",
+            "certificate_hash": "eee4ac25c116e54e89851ea2f7f0110495f9106b"
+          }
+        },
+        {
+          "client_id": "29321394047-3jpbnfq6jqu0rth2kq1d9isi3rhs9qvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6pKy_vJivaKaMXOhwrMTlXKU7NXpadEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29321394047-3jpbnfq6jqu0rth2kq1d9isi3rhs9qvr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "29321394047-hqod9sqsoeolo3tgts3b0c4vm3091lke.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.monapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

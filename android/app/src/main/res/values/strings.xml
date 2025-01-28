@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon App</string>
+    <string name="facebook_app_id">1245136226574654</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">c4f0823ad402448b0fd0919683d316ba</string>
+</resources>
+<!-- TODO Implement facebook auth login -->
+<!-- FIX User data deletion-required -->

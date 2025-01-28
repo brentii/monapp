@@ -1,0 +1,72 @@
+lib/
+├── core/
+│   ├── constants/
+│   │   ├── app_colors.dart
+│   │   ├── app_images.dart
+│   │   └── app_strings.dart
+│   ├── errors/
+│   │   ├── failure.dart
+│   │   └── error_handler.dart
+│   ├── services/
+│   │   ├── api_service.dart
+│   │   ├── auth_service.dart
+│   │   └── storage_service.dart
+│   ├── utils/
+│   │   ├── date_formatter.dart
+│   │   └── helpers.dart
+│   └── themes/
+│       ├── app_theme.dart
+│       └── text_styles.dart
+│
+├── features/
+│   ├── profile/
+│   │   ├── data/
+│   │   │   ├── profile_model.dart
+│   │   │   └── profile_repository.dart
+│   │   ├── domain/
+│   │   │   ├── profile_entity.dart
+│   │   │   └── profile_usecase.dart
+│   │   └── presentation/
+│   │       ├── profile_page.dart
+│   │       └── widgets/
+│   │           ├── profile_header.dart
+│   │           └── profile_details.dart
+│   ├── welcome/
+│   │   └── presentation/
+│   │       ├── welcome_page.dart
+│   │       └── widgets/
+│   │           ├── welcome_banner.dart
+│   │           └── welcome_buttons.dart
+│
+├── shared/
+│   ├── widgets/
+│   │   ├── custom_button.dart
+│   │   ├── loading_indicator.dart
+│   │   └── app_drawer.dart
+│   ├── extensions/
+│   │   ├── string_extensions.dart
+│   │   └── context_extensions.dart
+│   └── helpers/
+│       ├── navigation_helper.dart
+│       └── responsive_helper.dart
+│
+├── app/
+│   ├── app.dart
+│   ├── app_router.dart
+│   └── dependency_injection.dart
+│
+└── main.dart
+
+Folder Description
+Folder	Purpose
+core/	Centralized utilities, constants, services, and themes used globally in the app.
+features/	Modularized code organized by features for scalability and maintainability.
+shared/	Reusable widgets, extensions, and helpers shared across multiple features.
+app/	Manages global app configurations like routing and dependency injection.
+test/	Contains unit, widget, and integration tests.
+
+Why This Structure is Scalable?
+Feature Independence: Each feature has its own encapsulated codebase, making it easier to maintain and test.
+Shared Resources: Common code (like widgets, helpers) is centralized for reusability, avoiding duplication.
+Future-Proofing: As your app grows, adding new features or layers is simple without affecting existing functionality.
+Would you like help restructuring your current project or implementing this hierarchy? 😊
